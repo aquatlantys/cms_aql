@@ -105,7 +105,7 @@
 <body>
     
         <div class="error-container">
-            <h1><img src="http://www.aquatlantys.com/images/logo_big_icon.svg" height="250"></h1>
+            <h1><img src="https://www.aquatlantys.com/images/logo_big_icon.svg" height="250"></h1>
             <p class="txt"><?php
 
 switch($_GET['erreur'])
