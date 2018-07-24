@@ -1142,6 +1142,11 @@ figure {
             margin-bottom: 30px;
         }
     }
+    iframe {
+        @media screen and (max-width: $screen-xs) {
+            width: 100%;
+        }
+    }
     .aqatl-practice-area-item {
         margin-bottom: 10px;
 
