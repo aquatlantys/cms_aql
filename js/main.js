@@ -207,10 +207,9 @@
 
     };
 
-
     // Loading page
     var loaderPage = function () {
-        $(".aqatl-loader").fadeOut("slow");
+        $(".aq-loader").delay(500).fadeOut("slow");
     };
 
     // Tabs
@@ -253,19 +252,16 @@
         });
     };
 
-
-
-
-
+  
     $(function () {
         burgerMenu();
         navigationSection();
         contentWayPoint();
         dropdown();
         goToTop();
-        loaderPage();
         activeTab();
         goToPromo();
+        loaderPage();
     });
 
 
