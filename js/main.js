@@ -209,7 +209,7 @@
 
     // Loading page
     var loaderPage = function () {
-        $(".aq-loader").delay(500).fadeOut("slow");
+        $(".aq-loader").delay(3000).fadeOut("slow");
     };
 
     // Tabs
