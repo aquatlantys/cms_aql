@@ -835,6 +835,9 @@ figure {
     @media screen and (max-width: 480px) {
       #aqatl-avtg h1 {
         margin-bottom: 30px; } }
+  @media screen and (max-width: 480px) {
+    #aqatl-avtg iframe {
+      width: 100%; } }
   #aqatl-avtg .aqatl-practice-area-item {
     margin-bottom: 10px; }
     #aqatl-avtg .aqatl-practice-area-item .aqatl-icon,
