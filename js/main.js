@@ -262,7 +262,6 @@
     var editin = function () {
           $('.login').on("click", function () {
               Simpla.editable(true);
-              $('.logout').fadeIn();
           });
     };
   
