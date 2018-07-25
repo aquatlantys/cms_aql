@@ -258,22 +258,13 @@
         });
     };
   
-  // Login
-  var editin = function () {
-        $('.login').on("click", function () {
-            Simpla.editable(true);
-            $('.logout').fadeIn();
-        });
-  };
-  
-  // Logout
-  var editout = function () {
-        $('.logout').on("click", function () {
-            $('.logout').fadeOut();
-            Simpla.editable(false);
-        });
-  };
-
+    // Login
+    var editin = function () {
+          $('.login').on("click", function () {
+              Simpla.editable(true);
+              $('.logout').fadeIn();
+          });
+    };
   
     $(function () {
         burgerMenu();
@@ -285,7 +276,6 @@
         goToPromo();
         loaderPage();
         editin();
-        editout();
     });
 
 
