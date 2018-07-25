@@ -2147,3 +2147,7 @@ form {
 
 //MEDIA QUERIES ABOVE 768px
 @media screen and (min-width: $screen-md) {}
+
+simpla-text {
+    display: inline-block !important;
+}
