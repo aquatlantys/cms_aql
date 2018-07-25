@@ -212,7 +212,7 @@
       $(document).ready(function() {
 
           setTimeout(function(){
-              $(".aq-loader").delay(2000).fadeOut("slow");
+              $(".aq-loader").delay(500).fadeOut("slow");
           }, 5000);
 
       });
@@ -257,6 +257,22 @@
             $("#li-pole a").tab("show");
         });
     };
+  
+  // Login
+  var editin = function () {
+        $('.login').on("click", function () {
+            Simpla.editable(true);
+            $('.logout').fadeIn();
+        });
+  };
+  
+  // Logout
+  var editout = function () {
+        $('.logout').on("click", function () {
+            $('.logout').fadeOut();
+            Simpla.editable(false);
+        });
+  };
 
   
     $(function () {
@@ -268,6 +284,8 @@
         activeTab();
         goToPromo();
         loaderPage();
+        editin();
+        editout();
     });
 
 

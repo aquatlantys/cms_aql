@@ -84,6 +84,7 @@
     
     <!-- Import Simpla elements -->
     <link rel="import" href="bower_components/simpla-text/simpla-text.html">
+    <link rel="import" href="/bower_components/simpla-link/simpla-link.html">
     <link rel="import" href="bower_components/simpla-img/simpla-img.html">
     <link rel="import" href="bower_components/simpla-admin/simpla-admin.html" async>
 </head>
@@ -155,18 +156,18 @@
 
         <!-- Popup time -->
         <aside id="pop-time" class="white-popup mfp-hide">
-            <h1><span>Horaires</span></h1>
-            <h3>Horaires d'ouverture</h3>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;Lundi, Mardi, Jeudi de 9h à 14h et 17h à 21h </p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;Mercredi de 13h à 21h </p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;Vendredi de 9h à 14h et 17h à 20h </p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;Samedi de 9h à 12h </p>
+            <h1><span><simpla-text path="/text/time/title">Horaires</simpla-text></span></h1>
+            <h3><simpla-text path="/text/time/normal/title">Horaires d'ouverture</simpla-text></h3>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/normal/ligne1">Lundi, Mardi, Jeudi de 9h à 14h et 17h à 21h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/normal/ligne2">Mercredi de 13h à 21h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/normal/ligne3">Vendredi de 9h à 14h et 17h à 20h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/normal/ligne4">Samedi de 9h à 12h</simpla-text></p>
 
-            <h3>Horaires d'ouverture Vacances scolaires (Zone A)</h3>
-            <p><i class="ti-arrow-right"></i> Lundi, Mardi, Jeudi de 9h à 21h </p>
-            <p><i class="ti-arrow-right"></i> Mercredi de 13h à 21h </p>
-            <p><i class="ti-arrow-right"></i> Vendredi de 9h à 20h </p>
-            <p><i class="ti-arrow-right"></i> Samedi de 9h à 12h </p>
+            <h3><simpla-text path="/text/time/break/title">Horaires d'ouverture Vacances scolaires (Zone A)</simpla-text></h3>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/break/ligne1">Lundi, Mardi, Jeudi de 9h à 21h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/break/ligne2">Mercredi de 13h à 21h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/break/ligne3">Vendredi de 9h à 20h</simpla-text></p>
+            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text path="/text/time/break/ligne4">Samedi de 9h à 12h</simpla-text></p>
         </aside>
 
         <!-- Popup contact -->
@@ -181,8 +182,8 @@
                             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;74230 Thônes</p>
                     </div>
                     <div class="col-sm-6">
-                        <p><i class="ti ti-mobile"></i>&nbsp;&nbsp;&nbsp;&nbsp;06 15 72 70 63
-                            <br><i class="ti ti-email"></i>&nbsp;&nbsp;&nbsp;&nbsp;contact@aquatlantys.com</p>
+                        <p><i class="ti ti-mobile"></i>&nbsp;&nbsp;&nbsp;&nbsp;<simpla-text path="/text/phone">06 15 72 70 63</simpla-text>
+                       <br><i class="ti ti-email"></i>&nbsp;&nbsp;&nbsp;&nbsp;contact@aquatlantys.com</p>
                     </div>
                 </div>
             </div>
@@ -201,8 +202,8 @@
                             <div class="display-tc">
                                 <h1 class="animate-box" data-animate-effect="fadeIn">
                                     <a class="pop-video" href="http://www.youtube.com/watch?v=r93xk9HCyEg"><img src="images/logo_big_icon2.svg" height="342" width="376" alt="logo Aquatlantys" title=""><img src="images/logo_play.svg" height="88" width="130" alt="Lire la video" title="Lire la video"></a>
-                                    <span>Centre d'Aquafitness</span>
-                                    <span>et de Squash à Thônes</span>
+                                    <span><simpla-text path="/text/title1">Centre d'Aquafitness</simpla-text></span>
+                                    <span><simpla-text path="/text/title2">et de Squash à Thônes</simpla-text></span>
                                 </h1>
                                 <a href="#" class="btn btn-primary js-goPromo">Découvrir le club</a>
                                 <a href="#" class="btn btn-scroll animated animated-delay-1 pulse infinite js-goPromo"><i class="ti-arrow-down"></i></a>
@@ -217,7 +218,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h1><simpla-text path="/text/promo1">Vos 2 prochains étés à 0€ </simpla-text> <span><simpla-text path="/text/promo2">pour toute inscription avant le 31/07/2018</simpla-text></span></h1>
+                        <h1><simpla-text path="/text/promo1">Vos 2 prochains étés à 0€</simpla-text>&nbsp;<span><simpla-text path="/text/promo2">pour toute inscription avant le 31/07/2018</simpla-text></span></h1>
                     </div>
                 </div>
             </div>
@@ -227,7 +228,12 @@
             <div class="container">
                 <div class="row row-pb-md">
                     <div class="col-md-6 heading animate-box" data-animate-effect="fadeIn">
-                        <h1>9 activités<br> <span class="light">alliant sport <br>et plaisir de l'eau !</span></h1>
+                        <h1>
+                          <simpla-text path="/text/activities/title1">9 activités</simpla-text>
+                          <br> <span class="light"><simpla-text path="/text/activities/title2">alliant sport</simpla-text>
+                          <br><simpla-text path="/text/activities/title3">et plaisir de l'eau !</simpla-text>
+                          </span>
+                        </h1>
                         <a href="#pop-abo" class="btn btn-primary pop-abo cta-activities">Voir nos activités</a>
                         <a href="#pop-abo" class="btn btn-white btn-outline pop-abo cta-fitness">Voir les formules</a>
                     </div>
@@ -235,7 +241,7 @@
                         <p class="subtle-text">30°C</p>
                         <div class="rounded-box animate-box" data-animate-effect="fadeIn">
                             <div class="content">
-                                <p class="sub">Dans un bassin couvert et chauffé toute l'année à 30°C, sculptez votre corps sans courbatures grâce au massage de l'eau.</p>
+                                <p class="sub"><simpla-text path="/text/activities/description">Dans un bassin couvert et chauffé toute l'année à 30°C, sculptez votre corps sans courbatures grâce au massage de l'eau.</simpla-text></p>
                             </div>
                         </div>
                     </div>
@@ -258,7 +264,7 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="abo-planning">
-                    <p>9 activités aquatiques selon vos objectifs et disponibilités : AquaFitness, AquaBike, AquaWorks, AquaDynamic, AquaMinceur, AquaSeniors, AquaPower, AquaJump et AquaPole pour varier les plaisirs !</p>
+                    <p><simpla-text path="/text/pop/activities/descr">9 activités aquatiques selon vos objectifs et disponibilités : AquaFitness, AquaBike, AquaWorks, AquaDynamic, AquaMinceur, AquaSeniors, AquaPower, AquaJump et AquaPole pour varier les plaisirs !</simpla-text></p>
                     <br>
                     <div class="col-sm-6">
                         <div class="row" style="margin-right:0;">
@@ -269,8 +275,12 @@
                                     </div>
                                     <h2 class="heading-colored">Aquabike</h2>
                                     <p>Pédalez sur des rythmes variés sur un vélo aquatique en utilisant le placement du bassin et le gainage comme outils. Cours intense au niveau musculaire et cardio-vasculaire. Le drainage et la minceur au rendez-vous grâce l'effet massant de l'eau ! <em>Des sensations dès la première fois !</em>
-                                        <br>
-                                        <a href="#li-bike" class="label label-primary label-bike">Aquabike</a>
+                                      <br>
+                                      <a href="#li-bike" class="label label-primary label-bike">
+                                        <simpla-link path="/button">
+                                          <simpla-text path="/button/label" plaintext>Aquabike</simpla-text> 
+                                        </simpla-link>
+                                      </a>
                                     </p>
                                     <br><br>
                                 </div>
@@ -630,13 +640,21 @@
             <div class="container">
                 <div class="row row-pb-md">
                     <div class="col-md-6 heading animate-box" data-animate-effect="fadeIn">
-                        <h1>Des cours et <br>stages de natation <span class="light"> <br>pour adultes et enfants</span></h1>
+                        <h1>
+                          <simpla-text path="/text/natation/title1">Des cours et</simpla-text>
+                          <br>
+                          <simpla-text path="/text/natation/title1">stages de natation</simpla-text>
+                          <span class="light"> 
+                            <br>
+                            <simpla-text path="/text/natation/title1">pour adultes et enfants</simpla-text>
+                          </span>
+                        </h1>
                         <a href="#pop-swim" class="btn btn-primary pop-swim cta-planning">Voir le planning</a>
                         <a href="#pop-swim" class="btn btn-white btn-outline pop-swim cta-natation">En savoir plus</a>
                     </div>
                     <div class="col-md-6 animate-box" data-animate-effect="fadeIn">
                         <p class="subtle-text animate-box" data-animate-effect="fadeIn"></p>
-                        <p class="sub animate-box">Apprenez à nager à votre enfant dès 4 ans avec des cours ludiques et variés et des stages pendant les vacances scolaires !</p>
+                        <p class="sub animate-box"><simpla-text path="/text/natation/description">Apprenez à nager à votre enfant dès 4 ans avec des cours ludiques et variés et des stages pendant les vacances scolaires !</simpla-text></p>
                     </div>
                 </div>
             </div>
@@ -816,7 +834,13 @@
                 <div class="row row-pb-md">
                     <div class="col-md-6 heading animate-box" data-animate-effect="fadeIn">
                         <img src="images/min/bebe-nageur1.png" alt="" title="" class="img-responsive">
-                        <h1>Bébés dans l'eau<br><span class="light">chaque samedi</span></h1>
+                        <h1>
+                          <simpla-text path="/text/bebe/title1">Bébés dans l'eau</simpla-text>
+                          <br>
+                          <span class="light">
+                          <simpla-text path="/text/bebe/title2">chaque samedi</simpla-text>
+                          </span>
+                        </h1>
                         <a href="#pop-bebe" class="btn btn-primary pop-bebe cta-how" data-toggle="tab">Comment ça se passe ?</a>
                         <a href="#pop-bebe" class="btn btn-white btn-outline pop-bebe cta-bebe" data-toggle="tab">Voir les tarifs</a>
                     </div>
@@ -824,7 +848,7 @@
                         <p class="subtle-text">32°C</p>
                         <div class="rounded-box animate-box" data-animate-effect="fadeIn">
                             <div class="content">
-                                <p class="sub">Profitez d'un moment privilégié chaque samedi à 9h45 avec votre bébé pour bien démarrer le week-end</p>
+                                <p class="sub"><simpla-text path="/text/bebe/description">Profitez d'un moment privilégié chaque samedi à 9h45 avec votre bébé pour bien démarrer le week-end</simpla-text></p>
                             </div>
                         </div>
                     </div>
@@ -916,7 +940,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 heading animate-box" data-animate-effect="fadeIn">
-                        <h1>3 terrains de squash<br> <span class="light">pour se dépenser !</span></h1>
+                        <h1>
+                        <simpla-text path="/text/squash/title1">3 terrains de squash</simpla-text>
+                        <br>
+                        <span class="light">
+                        <simpla-text path="/text/squash/title2">pour se dépenser !</simpla-text>
+                        </span>
+                        </h1>
                         <a href="http://squash-thones.fr/" class="btn btn-primary" target="_blank" rel="noopener">Aller sur squash-thones.fr</a>
                     </div>
                     <!--div class="col-md-6 animate-box" data-animate-effect="fadeIn">
@@ -1005,28 +1035,44 @@
                     <div class="col-md-6 saison">
                         <div class="row">
                             <div class="col-xs-6">
-                                <h1><span class="light">Spécial</span><br>Saisonniers</h1>
+                                <h1><span class="light">
+                                <simpla-text path="/text/offer1/title1">Spécial</simpla-text>
+                                </span><br>
+                                <simpla-text path="/text/offer1/title2">Saisonniers</simpla-text>
+                                </h1>
                             </div>
                             <div class="col-xs-6">
-                                <h1 class="light text-center">150€</h1>
+                                <h1 class="light text-center"><simpla-text path="/text/offer1/price">150€</simpla-text></h1>
                             </div>
                             <div class="col-xs-10">
-                                <h3>AquaBike 1x/sem. avec option Aqua+ et Squash</h3>
-                                <p>Saisonniers, profitez d'une formule exceptionnelle toutes activités incluses de début Décembre à fin Avril !</p>
+                                <h3>
+                                  <simpla-text path="/text/offer1/offer">AquaBike 1x/sem. avec option Aqua+ et Squash</simpla-text>
+                                </h3>
+                                <p><simpla-text path="/text/offer1/description">Saisonniers, profitez d'une formule exceptionnelle toutes activités incluses de début Décembre à fin Avril !</simpla-text></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-xs-6">
-                                <h1><span class="light">Offre</span><br>Étudiants</h1>
+                                <h1><span class="light">
+                                <simpla-text path="/text/offer2/title1">Offre</simpla-text>
+                                </span><br>
+                                <simpla-text path="/text/offer2/title2">Étudiants</simpla-text>
+                                </h1>
                             </div>
                             <div class="col-xs-6">
-                                <h1 class="light text-center">15€<small>/mois</small></h1>
+                                <h1 class="light text-center">
+                                <simpla-text path="/text/offer2/price1">15€</simpla-text>
+                                <small>
+                                <simpla-text path="/text/offer2/price2">/mois</simpla-text>
+                                </small></h1>
                             </div>
                             <div class="col-xs-10">
-                                <h3>Tarif unique sur tous les abo</h3>
-                                <p>Étudiants de moins de 20 ans, profitez d'un tarif avantagueux pour le même abonnement que vos parents !</p>
+                                <h3>
+                                  <simpla-text path="/text/offer2/offer">Tarif unique sur tous les abo</simpla-text>
+                                </h3>
+                                <p><simpla-text path="/text/offer2/description">Étudiants de moins de 20 ans, profitez d'un tarif avantagueux pour le même abonnement que vos parents !</simpla-text></p>
                             </div>
                         </div>
                     </div>
@@ -1079,7 +1125,8 @@
                         <p class="pull-left">
                             <small><a href="mentions.html">Mentions Légales</a></small>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <small><a href="sitemap.html">Plan du site</a></small>&nbsp;&nbsp;|&nbsp;&nbsp;
-                            <small><a href="#pop-contact" class="pop-contact">Contact</a></small>
+                            <small><a href="#pop-contact" class="pop-contact">Contact</a></small>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <small class="login">Log</small>
                         </p>
                     </div>
                     <div class="col-md-4 pull-right text-right">
@@ -1096,6 +1143,8 @@
     <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="ti-arrow-up"></i></a>
     </div>
+    
+    <button class="btn btn-primary logout" style="position: fixed; top: 20px; right: 20px; z-index:99999; cursor: pointer; display: none;">Enregistrer</button>
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
