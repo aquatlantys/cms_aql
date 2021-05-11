@@ -114,8 +114,8 @@
                             <li class="active"><a href="#" data-nav-section="home">Le Club</a></li>
                             <li><a href="#" data-nav-section="activities">Activités</a></li>
                             <li><a href="#" data-nav-section="actus">Actus</a></li>
-                            <li class="btn-ghost"><a href="http://aquatlantys.resaminute.com/" class="external" target="_blank" rel="noopener"><span>Réserver un cours</span></a></li>
-                            <li class="btn-cta"><a href="#pop-contact" class="pop-contact"><span>S'inscrire</span></a></li>
+                            <li class="btn-ghost"><a  href="#" data-nav-section="kdo"><span><i class="ti-gift"></i>&nbsp;&nbsp;Cartes cadeaux</span></a></li>
+                            <li class="btn-cta"><a href="https://aquatlantys.app.resaminute.com/client/login" class="external" target="_blank" rel="noopener"><span>Réserver un cours</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -126,15 +126,9 @@
         <header class="menu-fixed">
             <ul>
                 <li class="list-unstyled">
-                    <a href="http://aquatlantys.resaminute.com/" target="_blank" rel="noopener">
+                    <a href="https://aquatlantys.app.resaminute.com/client/login" target="_blank" rel="noopener">
                             <i class="ti-marker-alt"></i>
                             <span>Résaminute</span>
-                        </a>
-                </li>
-                <li class="list-unstyled">
-                    <a href="#pop-time" class="pop-time">
-                            <i class="ti-time"></i>
-                            <span>Horaires</span>
                         </a>
                 </li>
                 <li class="list-unstyled">
@@ -146,7 +140,13 @@
                 <li class="list-unstyled">
                     <a href="upload/planning_2020_2021.pdf" target="_blank" rel="noopener">
                         <i class="ti-calendar"></i>
-                        <span>Planning des cours</span>
+                        <span>Planning annuel</span>
+                    </a>
+                </li>
+                <li class="list-unstyled">
+                    <a href="https://drive.google.com/drive/folders/1NX8FxDoIdIxaa0m_Ywbw2DM_2Rw9aZ_z?usp=sharing" target="_blank" rel="noopener">
+                        <i class="ti-clip"></i>
+                        <span>Infos et autres documents</span>
                     </a>
                 </li>
                 <li class="list-unstyled">
@@ -157,22 +157,6 @@
                 </li>
             </ul>
         </header>
-
-        <!-- Popup time -->
-        <aside id="pop-time" class="white-popup mfp-hide">
-            <h1><span><simpla-text inline plaintext path="/time/title">Horaires</simpla-text></span></h1>
-            <h3><simpla-text inline plaintext path="/time/normal/title">Horaires d'ouverture</simpla-text></h3>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne1">Lundi, Mardi, Jeudi de 9h à 14h et 17h à 21h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne2">Mercredi de 13h à 21h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne3">Vendredi de 9h à 14h et 17h à 20h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne4">Samedi de 9h à 12h</simpla-text></p>
-
-            <h3><simpla-text inline plaintext path="/time/break/title">Horaires d'ouverture Vacances scolaires (Zone A)</simpla-text></h3>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne1">Lundi, Mardi, Jeudi de 9h à 21h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne2">Mercredi de 13h à 21h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne3">Vendredi de 9h à 20h</simpla-text></p>
-            <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne4">Samedi de 9h à 12h</simpla-text></p>
-        </aside>
 
         <!-- Popup contact -->
         <aside id="pop-contact" class="white-popup mfp-hide">
@@ -188,6 +172,27 @@
                     <div class="col-sm-6">
                         <p><i class="ti ti-mobile"></i>&nbsp;&nbsp;&nbsp;&nbsp;<simpla-text inline plaintext path="/phone">06 15 72 70 63</simpla-text>
                        <br><i class="ti ti-email"></i>&nbsp;&nbsp;&nbsp;&nbsp;contact@aquatlantys.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3><simpla-text inline plaintext path="/time/normal/title">Horaires d'ouverture</simpla-text></h3>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne1">Lundi, Mardi, Jeudi de 9h à 14h et 17h à 21h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne2">Mercredi de 13h à 21h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne3">Vendredi de 9h à 14h et 17h à 20h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/normal/ligne4">Samedi de 9h à 12h</simpla-text></p>
+
+                    <h3><simpla-text inline plaintext path="/time/break/title">Horaires d'ouverture Vacances scolaires (Zone A)</simpla-text></h3>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne1">Lundi, Mardi, Jeudi de 9h à 21h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne2">Mercredi de 13h à 21h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne3">Vendredi de 9h à 20h</simpla-text></p>
+                    <p><i class="ti-arrow-right"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/break/ligne4">Samedi de 9h à 12h</simpla-text></p>
+                    
+                    <h3><simpla-text inline plaintext path="/time/pass/title">PASS Liberté 7/7</simpla-text></h3>
+                    <div class="col-sm-9">
+                        <p><i class="ti-credit-card"></i>&nbsp;&nbsp;<simpla-text inline plaintext path="/time/pass/text">Badge d'accès (hors zone aquatique)</simpla-text></p>
+                    </div>
+                    <div class="col-sm-3 text-right">
+                        <p><simpla-text inline plaintext path="/time/pass/price">5</simpla-text>&euro;/mois</p>
                     </div>
                 </div>
             </div>
@@ -263,12 +268,13 @@
                 <li role="presentation" class="" id="li-fitness"><a href="#abo-fitness" aria-controls="abo-fitness" role="tab" data-toggle="tab">AquaForm</a></li>
                 <li role="presentation" class="" id="li-bike"><a href="#abo-bike" aria-controls="abo-bike" role="tab" data-toggle="tab">AquaBike</a></li>
                 <li role="presentation" class="" id="li-pole"><a href="#abo-pole" aria-controls="abo-pole" role="tab" data-toggle="tab">Aqua+</a></li>
+                <li role="presentation" class="" id="li-giftcard"><a href="#abo-giftcard" aria-controls="abo-giftcard" role="tab" data-toggle="tab"><i class="ti-gift"></i>&nbsp;&nbsp;Cartes cadeaux</a></li>
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="abo-planning">
-                    <p><simpla-text inline plaintext path="/pop/activities/descr">9 activités aquatiques selon vos objectifs et disponibilités : AquaFitness, AquaBike, AquaWorks, AquaDynamic, AquaMinceur, AquaSeniors, AquaPower, AquaJump et AquaPole pour varier les plaisirs !</simpla-text></p>
+                    <p><simpla-text inline plaintext path="/pop/activities/descr">9 activités aquatiques collectives selon vos objectifs et disponibilités et une offre de coaching personnalisé !</simpla-text></p>
                     <br>
                     <div class="col-sm-6">
                         <div class="row" style="margin-right:0;">
@@ -278,7 +284,7 @@
                                         <img src="images/activites/bike.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/1/title">Aquabike</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/1/descr">Pédalez sur des rythmes variés sur un vélo aquatique en utilisant le placement du bassin et le gainage comme outils. Cours intense au niveau musculaire et cardio-vasculaire. Le drainage et la minceur au rendez-vous grâce l'effet massant de l'eau !</simpla-text><em><simpla-text inline plaintext path="/pop/activities/1/em">Des sensations dès la première fois !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/1/descr">Pédalez sur des rythmes variés sur un vélo aquatique en utilisant le placement du bassin et le gainage comme outils. Cours intense au niveau musculaire et cardio-vasculaire. Le drainage et la minceur au rendez-vous grâce l'effet massant de l'eau ! </simpla-text><em><simpla-text inline plaintext path="/pop/activities/1/em">Des sensations dès la première fois !</simpla-text></em>
                                       <br>
                                       <a href="#li-bike" class="label label-primary label-bike">
                                         <simpla-link path="/pop/activities/1/button">
@@ -294,7 +300,7 @@
                                         <img src="images/activites/dynamic.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/2/title">AquaDynamic</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/2/descr">Cours complet et efficace... Progressez sur une chorégraphie simple et accessible à tous. La touche Planet Fitness.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/2/em">Le plus : L'efficacité !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/2/descr">Cours complet et efficace... Progressez sur une chorégraphie simple et accessible à tous. La touche Planet Fitness. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/2/em">Le plus : L'efficacité !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/2/button">
@@ -310,7 +316,7 @@
                                         <img src="images/activites/jump.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/3/title">AquaJump</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/3/descr">Le trampoline dans l'eau ! Éclatez-vous sur des rythmes rapides et entraînants pour bruler un maximum de calories en un temps record !</simpla-text><em><simpla-text inline plaintext path="/pop/activities/3/em">Un renforcement des cuisses et des capacités cardio++ !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/3/descr">Le trampoline dans l'eau ! Éclatez-vous sur des rythmes rapides et entraînants pour bruler un maximum de calories en un temps record ! </simpla-text><em><simpla-text inline plaintext path="/pop/activities/3/em">Un renforcement des cuisses et des capacités cardio++ !</simpla-text></em>
                                         <br>
                                         <a href="#li-pole" class="label label-primary label-pole">
                                           <simpla-link path="/pop/activities/3/button">
@@ -326,7 +332,7 @@
                                         <img src="images/activites/works.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/4/title">AquaWorks</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/4/descr">L'esprit "Cross-Fit" adapté au milieu aquatique... Devenez votre meilleur athlète en relevant des défis variés.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/4/em">Chaque cours à un thème et une progression différente !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/4/descr">L'esprit "Cross-Fit" adapté au milieu aquatique... Devenez votre meilleur athlète en relevant des défis variés. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/4/em">Chaque cours à un thème et une progression différente !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/4/button">
@@ -342,7 +348,7 @@
                                         <img src="images/activites/power.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/5/title">AquaPower</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/5/descr">Cours de renforcement musculaire avec du matériel additionnel : poids, barres, haltères aquatiques.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/5/em">Un travail accentué de la sangle abdominale pour réussir à stabiliser le reste du corps !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/5/descr">Cours de renforcement musculaire avec du matériel additionnel : poids, barres, haltères aquatiques. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/5/em">Un travail accentué de la sangle abdominale pour réussir à stabiliser le reste du corps !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/5/button">
@@ -365,7 +371,7 @@
                                         <img src="images/activites/pole.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/6/title">AquaPole</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/6/descr">Cours aquatique ayant pour support une barre de pole-dance... Conservez votre équilibre et travaillez votre placement sur chaque exercice demandé, vous ressentirez tous vos muscles se serrer pour garder les positions !</simpla-text><em><simpla-text inline plaintext path="/pop/activities/6/em">Un cours insolite et intense</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/6/descr">Cours aquatique ayant pour support une barre de pole-dance... Conservez votre équilibre et travaillez votre placement sur chaque exercice demandé, vous ressentirez tous vos muscles se serrer pour garder les positions ! </simpla-text><em><simpla-text inline plaintext path="/pop/activities/6/em">Un cours insolite et intense</simpla-text></em>
                                         <br>
                                         <a href="#li-pole" class="label label-primary label-pole">
                                           <simpla-link path="/pop/activities/6/button">
@@ -381,7 +387,7 @@
                                         <img src="images/activites/minceur.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/7/title">AquaMinceur</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/7/descr">Travail de renforcement musculaire sur les zones cibles cuisses/abdos/fessiers entrecoupés de travail de drainage et de renforcement cardio-vasculaire</simpla-text><em><simpla-text inline plaintext path="/pop/activities/7/em">La cible cuisses/abdos/fessiers !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/7/descr">Travail de renforcement musculaire sur les zones cibles cuisses/abdos/fessiers entrecoupés de travail de drainage et de renforcement cardio-vasculaire </simpla-text><em><simpla-text inline plaintext path="/pop/activities/7/em">La cible cuisses/abdos/fessiers !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/7/button">
@@ -397,7 +403,7 @@
                                         <img src="images/activites/fitness.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/8/title">Aquafitness</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/8/descr">Coordonnation des membres inférieurs et supérieurs pour travailler sur des pics cardio. Rythmes élevés.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/8/em">Le plus : L'intensité cardio-vasculaire !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/8/descr">Coordonnation des membres inférieurs et supérieurs pour travailler sur des pics cardio. Rythmes élevés. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/8/em">Le plus : L'intensité cardio-vasculaire !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/8/button">
@@ -413,7 +419,7 @@
                                         <img src="images/activites/senior.jpg" class="img-responsive" alt="" title="">
                                     </div>
                                     <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/9/title">AquaSeniors</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/9/descr">Le même principe que l'AquaFitness en version allégée. Rythme inférieur, coordination toujours présente pour favoriser le travail de connexion nerveuse et la motricité.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/9/em">Accessible à tous !</simpla-text></em>
+                                    <p><simpla-text inline plaintext path="/pop/activities/9/descr">Le même principe que l'AquaFitness en version allégée. Rythme inférieur, coordination toujours présente pour favoriser le travail de connexion nerveuse et la motricité. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/9/em">Accessible à tous !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
                                           <simpla-link path="/pop/activities/9/button">
@@ -426,14 +432,14 @@
                                 
                                 <div class="row activities animate-box" data-animate-effect="fadeInRight">
                                     <div class="img-shadow">
-                                        <img src="images/activites/workout.jpg" class="img-responsive" alt="" title="">
+                                        <img src="images/activites/coaching.jpg" class="img-responsive" alt="" title="">
                                     </div>
-                                    <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/10/title">Workout</simpla-text></h2>
-                                    <p><simpla-text inline plaintext path="/pop/activities/10/descr">Sous forme de groupe d’entrainement (6 maxi), venez cibler un ou plusieurs groupes musculaires en utilisant une combinaison d’exercices à la fois terrestres et aquatiques pour des sensations décuplées et des résultats plus rapides.</simpla-text><em><simpla-text inline plaintext path="/pop/activities/10/em">Cours flash 30min</simpla-text></em>
+                                    <h2 class="heading-colored"><simpla-text inline plaintext path="/pop/activities/11/title">Coaching</simpla-text></h2>
+                                    <p><simpla-text inline plaintext path="/pop/activities/11/descr">Coaching individuel ou collectif, terrestre ou aquatique, sur place ou à domicile. Progressez efficacement en vous fixant des objectifs à court et moyen terme ou préparez-vous à une échéance avec une date précise... le coach s'adapte à votre état de forme et à votre demande pour obtenir vos résultats plus rapidement. </simpla-text><em><simpla-text inline plaintext path="/pop/activities/11/em">Vivez une expérience sportive intense... mais adaptée à votre niveau. Renseignez-vous !</simpla-text></em>
                                         <br>
                                         <a href="#li-fitness" class="label label-primary label-fitness">
-                                          <simpla-link path="/pop/activities/10/button">
-                                            <simpla-text inline plaintext path="/pop/activities/9/button/label">Aquafitness</simpla-text> 
+                                          <simpla-link path="/pop/activities/11/button">
+                                            <simpla-text inline plaintext path="/pop/activities/11/button/label">Coaching</simpla-text> 
                                           </simpla-link>
                                         </a>
                                     </p>
@@ -714,6 +720,14 @@
                         </div>
                     </div>
                 </div>
+                <div role="tabpanel" class="tab-pane fade" id="abo-giftcard">
+                    <h3>COMMANDEZ sur capcadeau.com : </h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="cap-cadeau-widget" data-url="https://www.capcadeau.com/widget/liste-bons/1655"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </aside>
@@ -753,6 +767,7 @@
                 <li role="presentation" class="" id="li-planning"><a href="#swim-about" aria-controls="swim-about" role="tab" data-toggle="tab">Planning des cours</a></li>
                 <li role="presentation" class="" id="li-stage"><a href="#swim-stage" aria-controls="swim-stage" role="tab" data-toggle="tab">Stages</a></li>
                 <li role="presentation" class="" id="li-natation"><a href="#swim-price" aria-controls="swim-price" role="tab" data-toggle="tab">Tarifs</a></li>
+                <li role="presentation" class="" id="li-giftcardnat"><a href="#swim-giftcardnat" aria-controls="swim-giftcardnat" role="tab" data-toggle="tab"><i class="ti-gift"></i>&nbsp;&nbsp;Cartes cadeaux</a></li>
             </ul>
 
             <!-- Tab panes -->
@@ -917,6 +932,15 @@
                     <br>
                     <a href="upload/fiche_EDN_2018.pdf" target="_blank" rel="noopener" class="btn btn-white btn-outline"><i class="ti-download"></i>&nbsp;&nbsp;Inscription ici</a>
                 </div>
+                
+                <div role="tabpanel" class="tab-pane fade" id="swim-giftcardnat">
+                    <h3>COMMANDEZ sur capcadeau.com : </h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="cap-cadeau-widget" data-url="https://www.capcadeau.com/widget/liste-bons/1655"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </aside>
@@ -956,6 +980,7 @@
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" id="li-how"><a href="#baby-about" aria-controls="baby-about" role="tab" data-toggle="tab">Déroulement</a></li>
                 <li role="presentation" id="li-bebe"><a href="#baby-price" aria-controls="baby-price" role="tab" data-toggle="tab">Tarifs</a></li>
+                <li role="presentation" id="li-giftcardbb"><a href="#baby-giftcardbb" aria-controls="baby-giftcardbb" role="tab" data-toggle="tab"><i class="ti-gift"></i>&nbsp;&nbsp;Cartes cadeaux</a></li>                
             </ul>
 
             <!-- Tab panes -->
@@ -1024,6 +1049,15 @@
                         </div>
                     </div>
                 </div>
+                
+                <div role="tabpanel" class="tab-pane fade" id="baby-giftcardbb">
+                    <h3>COMMANDEZ sur capcadeau.com : </h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="cap-cadeau-widget" data-url="https://www.capcadeau.com/widget/liste-bons/1655"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </aside>
@@ -1061,12 +1095,12 @@
                             <div class="aqatl-copy">
                                 <div class="aqatl-icon">
                                     <img src="images/services/resa.svg" alt="icon reservation resaminute" title="">
-                                    <h3><a href="http://aquatlantys.resaminute.com/" target="_blank" rel="noopener">Réservation en ligne</a></h3>
+                                    <h3><a href="https://aquatlantys.app.resaminute.com/client/login" target="_blank" rel="noopener">Réservation en ligne</a></h3>
                                 </div>
 
-                                <p>Avec l'application Résaminute, réservez vos cours à l'avance et sans vous déplacer ! L'application est disponible sur ordinateur <a href="http://aquatlantys.resaminute.com/" target="_blank" rel="noopener">ici</a> ou sur <a href="http://itunes.apple.com/fr/app/resaminute/id591409005?mt=8" target="_blank" rel="noopener">AppStore</a> et <a href="http://play.google.com/store/apps/details?id=com.wybness.resaminute&hl=fr" target="_blank" rel="noopener">GooglePlay</a>
+                                <p>Avec l'application Résaminute, réservez vos cours à l'avance et sans vous déplacer ! L'application est disponible sur ordinateur <a href="https://aquatlantys.app.resaminute.com/client/login" target="_blank" rel="noopener">ici</a>
                                     <br>
-                                    <a href="upload/mode_d_emploi_resaminute.pdf" target="_blank">Mode d'emploi</a></p>
+                                    <a href="upload/mode_d_emploi_resaminute_2021.pdf" target="_blank">Mode d'emploi</a></p>
                             </div>
                         </div>
 
@@ -1121,6 +1155,21 @@
             </div>
         </section>
         
+        <section id="aqatl-kdo" data-section="kdo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1><span class="light">
+                                <simpla-text inline plaintext path="/offer3/title1">Commandez</simpla-text>
+                                </span><br>
+                                <simpla-text inline plaintext path="/offer3/title2">vos CAPCADEAUX</simpla-text>
+                        </h1>
+                        <div class="cap-cadeau-widget" data-url="https://www.capcadeau.com/widget/liste-bons/1655"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <section id="aqatl-special">
             <div class="container">
                 <div class="row">
@@ -1169,7 +1218,7 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- Section photo groupe -->
         <section id="aqatl-contact" data-section="contact">
             <div class="container">
@@ -1188,14 +1237,13 @@
                     <div class="col-md-4">
                         <p class="pull-left">
                             <small><a href="mentions.html">Mentions Légales</a></small>&nbsp;&nbsp;|&nbsp;&nbsp;
-                            <small><a href="sitemap.html">Plan du site</a></small>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <small class="login" style="cursor: pointer;">Log</small>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <small><a href="#pop-contact" class="pop-contact">Contact</a></small>
                         </p>
                     </div>
                     <div class="col-md-4 pull-right text-right">
                         <p>
-                            <small class="block">&copy; 2018 Aqu'Atlantys. Tous droits réservés.</small>
+                            <small class="block">&copy; 2021 Aqu'Atlantys. Tous droits réservés.</small>
                         </p>
                     </div>
                 </div>
@@ -1227,6 +1275,8 @@
     <script src="js/offcanvas.js"></script>
     <!-- simpla.io -->
     <script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
+    <!-- cap cadeau -->
+    <script src="https://www.capcadeau.com/widget/widget.js"></script>
     
 </body>
 

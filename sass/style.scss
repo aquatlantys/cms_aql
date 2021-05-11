@@ -405,7 +405,7 @@ figure {
             }
             &.btn-ghost {
                 span {
-                    border: 3px solid rgba(255, 255, 255, 0.5);
+                    border: 2px solid rgba(255, 255, 255, 0.5);
                     background: transparent;
                     padding: 0px 20px;
                     @include inline-block;
@@ -458,10 +458,10 @@ figure {
                 &.btn-ghost {
                     a {
                         span {
-                            border: 3px solid rgba(0, 74, 153, 0.5);
+                            border: 2px solid rgba(0, 74, 153, 0.5);
                         }
                         &:hover span {
-                            border: 3px solid rgba(0, 74, 153, 1);
+                            border: 2px solid rgba(0, 74, 153, 1);
                         }
                     }
                 }
@@ -573,7 +573,7 @@ figure {
 
                 span {
                     position: absolute;
-                    width: 150px;
+                    width: 250px;
                     text-align: right;
                     opacity: 0;
                     right: 0;
@@ -2142,4 +2142,30 @@ form {
     &:hover {
         background-color: $brand-primary;
     }
+}
+
+#aqatl-kdo {
+    background-color: #051831;
+    padding: 40px 0;
+}
+
+/*CAP CADEAU*/
+.cc-tags {display: none !important;}
+section.cc-vouchers-place {padding:0 !important; max-width: 1140px !important;}
+.cc-voucher-item {
+    background-color: white;
+    h3 {
+        padding: 0 10px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 25px !important;
+    }
+    .cc-place, .cc-location {
+        display: none !important;
+    }
+}
+@media (min-width:1080px) {
+ .cc-voucher-item {
+  width:calc((100% - 80px) / 4) !important;
+ }
 }
