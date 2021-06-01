@@ -1868,6 +1868,11 @@ form label {
   background-color: #3C6898;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+.white-popup .well2 {
+  background-color: #0C2948;
+  text-align: center;
+  margin-top: 20px;
+}
 .white-popup .well ul li {
   color: #fff;
 }
